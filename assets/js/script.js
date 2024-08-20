@@ -1,3 +1,34 @@
+const questions = [
+    {
+        question: "What is the capital of Turkey?",
+        answers: [
+            { text: "Istanbul", correct: false},
+            { text: "Ankara", correct: true},
+            { text: "Damascus", correct: false},
+            { text: "Antalia", correct: false},
+        ]
+    },
+    {
+        question: "Which is the best season to view northern lights?",
+        answers: [
+            { text: "Spring", correct: true},
+            { text: "Summer", correct: false},
+            { text: "Autumn", correct: false},
+            { text: "Winter", correct: false},
+        ]
+    },
+    {
+        question: "What is the currency in Dubai?",
+        answers: [
+            { text: "Riyal", correct: false},
+            { text: "Lira", correct: false},
+            { text: "Rupees", correct: false},
+            { text: "Dirham", correct: true},
+        ]
+    }
+];
+
+
 document.addEventListener("DOMContentLoaded", function() {
     let buttons = document.getElementsByTagName("button");
 

@@ -22,7 +22,7 @@ body {
 /* --------- Game layout */
 
 .game-area {
-    background-color: #E6ECF0;
+    background-color: #b368ce81;
     box-sizing: border-box;
     width: 85%;
     height: 65vh;
@@ -33,6 +33,62 @@ body {
     padding: 1%;
 }
 
+.app {
+    background-color: #b368ce81;
+    box-sizing: border-box;
+    width: 85%;
+    height: 65vh;
+    max-height: 450px;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+}
+
+.app h1{
+    font-size: 25px;
+    color: #004100;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+
+.quiz{
+    padding: 20px 0;
+}
+
+.quiz h2{
+    font-size: 18px;
+    color: #f7dc6f;
+    font-weight: 600;
+}
+
+.btn {
+    width: 220px;
+    height: 60px;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: rgb(130, 88, 203);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn:hover{
+    background-color: #f7dc6f;
+    color: #004100;
+}
+#next-btn{
+    background-color: #cd6155;
+    color: #0d1013;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
 .question-area {
     width: 50%;
     font-size: 2rem;
@@ -83,12 +139,12 @@ body {
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     letter-spacing: 1.2px;
-    color: whitesmoke;
+    color: rgb(130, 88, 203);
 }
 
 .btn--gray {
     margin-top: 25px;
-    background-color: #445361;
+    background-color: #326799;
     border: 1px transparent;
     border-radius: 20px;
 }
@@ -96,4 +152,8 @@ body {
 .btn--gray:active,
 .btn--gray:hover {
     background-color: #0d1013;
+}
+
+.button {
+    background-color: #326799;
 }
