@@ -72,6 +72,7 @@ function selectAnswer(e){
     const isCorrect = selectedBtn.dataset.correct === "true";
     if(isCorrect){
         selectedBtn.classList.add("correct");
+        score++;
     }else{
         selectedBtn.classList.add("incorrect");
     }
@@ -84,38 +85,29 @@ function selectAnswer(e){
     nextButton.style.display = "block";
 }
 
-startQuiz();
-
-document.addEventListener("DOMContentLoaded", function() {
-    let buttons = document.getElementsByTagName("button");
-
-    for (let button of buttons){
-        button.addEventListener("click", function() {
-            if (this.getAttribute("data-type") === "submit") {
-                checkAnswer();
-            } else {
-                let gameType = this.getAttribute("data-type");
-                runGame(gameType);
-            }
-        });
-    }
-
-    document.getElementById("answer-box").addEventListener("keydown", function(event) {
-        if (event.key === "Enter") {
-            checkAnswer();
-        }
-    })
-
-    runGame("addition");
-});
-
-function runGame(gameType) {
-    
+function showScore(){
+    resetState();
+    questionElement.innerHTML = `Your score is ${score} out of ${questions.length}!`;
+    nextButton.innerHTML = "Play again";
+    nextButton.style.display = "block";
 }
 
-function checkAnswer() {}
+function handleNextButton(){
+    currentQuestionIndex++;
+    if(currentQuestionIndex < questions.length){
+        showQuestion();
+    }else{
+        showScore();
+    }
+};
 
-function incrementScore() {}
+nextButton.addEventListener("click", ()=>{
+    if(currentQuestionIndex < questions.length){
+        handleNextButton();
+    }else{
+        startQuiz();
+    }
+})
 
-function incrementWrongAnswer() {}
+startQuiz();
 
