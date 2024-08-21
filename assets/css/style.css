@@ -77,9 +77,9 @@ body {
     background-color: #f7dc6f;
     color: #004100;
 }
-.btn:disabled{
+/*.btn:disabled{
     cursor: no-drop;
-}
+}*/
 #next-btn{
     background-color: #cd6155;
     color: #0d1013;
