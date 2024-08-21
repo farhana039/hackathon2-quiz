@@ -42,3 +42,28 @@ While creating this quiz game project, I also took guidance from a youtube tutor
 #### Logo:
 From Canva I used the template, and edited the logo.
 ![image](https://farhana039-hackathon2qu-5bbonxk4zp8.ws.codeinstitute-ide.net/)
+
+#### Typography:
+From the Google fonts, I chose the "Raleway", sans-serif.
+
+#### Color Scheme:
+For the theme of my page, I decided to use Purple [#b368ce81], with a mixture of yellow [#f7dc6f], green [#2ee66b] and red [#dc3e3ebd].
+
+
+### Credits:
+
+#### Links:
+https://htmlcolorcodes.com/
+(This is the website I used to pick color codes)
+
+https://youtu.be/PBcqGxrr9g8?si=JbqNxMrqmiF52B45
+(YouTube tutorial)
+
+https://github.com/farhana039/love-maths
+(Walkthrough project from Code Institute)
+
+https://www.canva.com/en_gb/
+(Canva to create logo)
+
+https://www.shecodes.io/
+(other tips for content)
