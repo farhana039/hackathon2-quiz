@@ -41,3 +41,4 @@ While creating this quiz game project, I also took guidance from a youtube tutor
 
 #### Logo:
 From Canva I used the template, and edited the logo.
+![image](https://farhana039-hackathon2qu-5bbonxk4zp8.ws.codeinstitute-ide.net/)
