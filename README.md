@@ -24,3 +24,20 @@ When clicking on any answer box (multiple choices), that specific box will eithe
 
 #### Responsive Layout:
 Ensure the site is easily navigable on all devices, including desktops, tablets, and smartphones.
+
+### Contents:
+
+#### UX (User Experience):
+User would like to play a simple game to test their knowledge on geographic subject.
+
+At the End of the game, they want their score to be calculated so that they know their total score achieved.
+
+#### Strategy:
+From the start of this I decided to use Love Maths as my guiding project. This project was a walkthrough project provided by my course, when I started learning JavaScript.
+
+While creating this quiz game project, I also took guidance from a youtube tutorial. 
+
+### Design:
+
+#### Logo:
+From Canva I used the template, and edited the logo.
