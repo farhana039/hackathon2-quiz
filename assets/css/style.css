@@ -89,6 +89,12 @@ body {
     cursor: pointer;
     display: none;
 }
+.correct{
+    background: #2ee66b;
+}
+.incorrect{
+    background: #dc3e3ebd;
+}
 .question-area {
     width: 50%;
     font-size: 2rem;
